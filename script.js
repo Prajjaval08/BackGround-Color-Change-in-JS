@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <centre>
-    <h1> Welcome to Colour World</h1>
-
-    <button id="start"> start</button>
-     <button id="stop"> stop</button>
-     </centre>
-</body>
-
-<!-- <script>
 
 const colourchange = function () {
     const hex = "0123456789ABCDEF";
@@ -46,9 +29,4 @@ const stopchangecolour = function () {
 };
 
 document.querySelector('#start').addEventListener('click', startchangecolour);
-document.querySelector('#stop').addEventListener('click', stopchangecolour); -->
-
-<!-- </script> -->
-<script src ="script.js"> </script>
-
-</html>
+document.querySelector('#stop').addEventListener('click', stopchangecolour);
